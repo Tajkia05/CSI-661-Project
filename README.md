@@ -3,7 +3,7 @@ Investigating demographic privacy leakage in recommender systems  by inferring g
 
 # Privacy Leakage in Recommender Systems
 
-**Course:** ICSI/CSI 661 
+**Course:** ICSI/CSI 661 <br>
 **University:** University at Albany, SUNY  
 **Authors:** Tajkia Nuri Ananna, Haroun M Hamza  
 
