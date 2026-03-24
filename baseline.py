@@ -106,11 +106,15 @@ y = data['gender']
 # Split by user_id so this baseline can use the same held-out users
 # as the MF attacker model
 
+# train_users, test_users = train_test_split(
+#     data['user_id'],
+#     test_size=0.2,
+#     random_state=42,
+#     stratify=data['gender']
+# )
+
 train_users, test_users = train_test_split(
-    data['user_id'],
-    test_size=0.2,
-    random_state=42,
-    stratify=data['gender']
+    data['user_id'].tolist(), test_size=0.2, random_state=42
 )
 
 train_mask = data['user_id'].isin(train_users)
