@@ -34,8 +34,8 @@ recommender training.
 ## Project Structure
 
 ```
-├── baseline.py             # Behavioral baseline (Person 1 — EDA + baseline)
-├── mf_attack.py            # Alternative MF implementation
+├── baseline.py             # EDA and Behavioral baseline
+├── mf_attack.py            # MF and Attacker model implementation
 ├── README.md
 ```
 
