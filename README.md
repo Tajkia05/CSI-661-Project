@@ -32,7 +32,6 @@ recommender training.
 
 ## Project Structure
 ```
-├── CSI_661_Midterm.ipynb   # Main notebook (Person 2 — MF + attacker)
 ├── baseline.py             # Behavioral baseline (Person 1 — EDA + baseline)
 ├── mf_attack.py            # Alternative MF implementation
 ├── README.md
@@ -40,13 +39,13 @@ recommender training.
 
 ## How to Reproduce Results
 
-### Hamza — Behavioral Baseline
+### Hamza: EDA & Behavioral Baseline
 
 1. Download MovieLens 1M and place files in `data/` folder
 2. Run `python baseline.py`
 3. The script will output EDA plots and baseline results
 
-### Tajkia — MF + Attacker 
+### Tajkia: MF + Attacker Model
 
 1. Open `mf_attack.py` in Google Colab
 2. Run all cells in order from top to bottom
