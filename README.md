@@ -14,7 +14,7 @@ unintentionally leak private demographic information through
 their learned user embeddings. We train a Matrix Factorization 
 (MF) model on the MovieLens 1M dataset and evaluate whether a 
 separate attacker model can infer gender from the resulting 
-user embeddings — without gender ever being used during 
+user embeddings, without gender ever being used during 
 recommender training.
 
 ## Research Question
